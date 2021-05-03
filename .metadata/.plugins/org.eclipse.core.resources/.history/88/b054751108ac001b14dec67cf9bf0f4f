@@ -1,0 +1,33 @@
+package project;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Product product1 = new Product();
+		product1.id = 1;
+		product1.name = "Lenovo v14";
+		product1.unitPrice = 15000;
+		product1.detail = "16 gb ram";
+
+		Product product2 = new Product();
+		product1.id = 2;
+		product1.name = "Lenovo v15";
+		product1.unitPrice = 16500;
+		product1.detail = "16 gb ram 256 ssd";
+
+		Product product3 = new Product();
+		product1.id = 3;
+		product1.name = "HP 5";
+		product1.unitPrice = 13000;
+		product1.detail = "8 gb ram";
+
+		Product[] products = { product1, product2, product3 };
+		for (Product product : products) {
+			System.out.println(product.name);
+		}
+
+		System.out.println(products.length);
+	}
+
+}
