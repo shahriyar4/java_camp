@@ -21,4 +21,8 @@
     <fullyQualifiedTypeName name="org.graalvm.compiler.hotspot.nodes.aot.PluginFactory_InitializeKlassStubCall"/>
     <fullyQualifiedTypeName name="interfaces.Filelogger"/>
     <fullyQualifiedTypeName name="interfaces.Utils"/>
+    <fullyQualifiedTypeName name="odevGun2.Human"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="odevGun2.Student"/>
+    <fullyQualifiedTypeName name="odevGun2.StudentManager"/>
 </qualifiedTypeNameHistroy>
